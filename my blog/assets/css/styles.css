@@ -1,4 +1,25 @@
 header {
     border-bottom: 3px black double;
     height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#icon {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.light {
+    background-color: #ffef97;
+    color: black;
 }

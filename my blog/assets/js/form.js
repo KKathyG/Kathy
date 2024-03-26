@@ -21,6 +21,6 @@ function handleLocalStorage(data) {
         || []
     blogs.push(data)
     localStorage.setItem("blogs", JSON.stringify(blogs))
-} //stringify put in, parse pull out
+}
 
 document.querySelector("form").addEventListener("submit", handleSubmit);
